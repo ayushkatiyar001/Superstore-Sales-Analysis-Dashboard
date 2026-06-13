@@ -45,3 +45,17 @@ The data model in Power BI is structured to enable robust analysis. The tables a
 * The **`Orders`** table is the central fact table.
 * The **`Returns`** table is linked to the **`Orders`** table using a one-to-one relationship based on the `Order ID` column.
 * The **`People`** table is linked to the **`Orders`** table using a many-to-one relationship based on the `Region` column, allowing for analysis of sales performance by regional manager.
+---
+## 🛠️ Tech Stack & Implementation Details
+
+- **Business Intelligence Tool:** Microsoft Power BI Desktop
+- **Data Source:** Pre-structured Retail Transactional Dataset (`Sample - Superstore`)
+- **Core Domain Focus:** Data Visualization, Dashboard Design, KPI Analytics, and Descriptive Reporting.
+
+---
+
+## 💻 How to View & Local Setup
+
+1. Clone this repository or download the centralized `.pbix` file locally.
+2. Open the file inside **Power BI Desktop** to interact with the live dashboard filters.
+*(Note: A high-resolution layout screenshot of the final dashboard interface is uploaded within the repository assets folder for quick reference).*
